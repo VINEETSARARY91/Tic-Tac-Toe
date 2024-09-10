@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Tic Tac Toe </title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+   <div class="container">
+      <div class="game-box">
+         <div class="row1">
+            <div class="left">
+               <i class="fas fa-x"></i>
+               <i class="fas fa-o"></i>
+            </div>
+            <div class="middle">
+               <i id="turn" class="fas fa-x"></i>
+               <h3>TURN</h3>
+            </div>
+            <div class="right"><i class="fa-solid fa-arrows-rotate" id="refresh"></i></div>
+         </div>
+         <div class="row2">
+            <div class="num-box"></div>
+            <div class="num-box"></div>
+            <div class="num-box"></div>
+            <div class="num-box"></div>
+            <div class="num-box"></div>
+            <div class="num-box"></div>
+            <div class="num-box"></div>
+            <div class="num-box"></div>
+            <div class="num-box"></div>
+         </div>
+         <div class="row3">
+            <div class="box">
+               <h3>X(YOU)</h3>
+               <h3 id="xpoint">0</h3>
+            </div>
+            <div class="box">
+               <h3>Ties</h3>
+               <h3>0</h3>
+            </div>
+            <div class="box">
+               <h3>O(CPU)</h3>
+               <h3 id="opoint">0</h3>
+            </div>
+
+         </div>
+
+      </div>
+   </div>
+   
+   <script src="script.js"></script>
+
+</body>
+
+</html>
